@@ -59,8 +59,8 @@ export default function Hero() {
           <a className="btn btn-primary" href="#projects">
             View Projects
           </a>
-          <a className="btn btn-secondary" href={resumeUrl} download>
-            Download Resume
+          <a className="btn btn-secondary" href={resumeUrl} target="_blank" rel="noreferrer">
+            View Resume
           </a>
           <a className="btn btn-ghost" href="#contact">
             Contact Me

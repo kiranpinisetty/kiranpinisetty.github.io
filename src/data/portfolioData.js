@@ -43,8 +43,8 @@ export const skills = [
     category: 'Programming',
     items: [
       {
-        name: 'C',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+        name: 'C#',
+        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
       },
       {
         name: 'Java',

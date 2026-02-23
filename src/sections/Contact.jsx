@@ -21,7 +21,7 @@ export default function Contact() {
             </li>
             <li>
               <span>Phone</span>
-              <a href={`tel:${personalInfo.phone}`}>{personalInfo.phone}</a>
+              <p className="contact-empty">-</p>
             </li>
             <li>
               <span>LinkedIn</span>
@@ -36,15 +36,6 @@ export default function Contact() {
               </a>
             </li>
           </ul>
-
-          <div className="contact-actions">
-            <a className="btn btn-primary" href={`mailto:${personalInfo.email}`}>
-              Email Me
-            </a>
-            <a className="btn btn-secondary" href={`tel:${personalInfo.phone}`}>
-              Call Me
-            </a>
-          </div>
         </article>
       </div>
     </section>

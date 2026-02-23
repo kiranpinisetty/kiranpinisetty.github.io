@@ -501,15 +501,13 @@ img {
   color: var(--text);
 }
 
-.contact-list a:hover {
-  color: var(--primary);
+.contact-empty {
+  font-weight: 600;
+  color: var(--text-muted);
 }
 
-.contact-actions {
-  margin-top: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.contact-list a:hover {
+  color: var(--primary);
 }
 
 .footer {
@@ -617,8 +615,7 @@ textarea:focus-visible {
   }
 
   .hero-actions .btn,
-  .project-links .btn,
-  .contact-actions .btn {
+  .project-links .btn {
     width: 100%;
     justify-content: center;
     text-align: center;
