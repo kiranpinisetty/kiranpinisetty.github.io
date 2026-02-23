@@ -3,6 +3,8 @@ import { personalInfo, quickFacts } from '../data/portfolioData'
 
 export default function Hero() {
   const fullText = personalInfo.typingText
+  const resumeUrl = `${import.meta.env.BASE_URL}kiran_Resume2026.pdf`
+  const profileImageUrl = `${import.meta.env.BASE_URL}kiran.jpg`
   const [typedText, setTypedText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
 
@@ -39,7 +41,7 @@ export default function Hero() {
       <div className="hero-bg" aria-hidden="true" />
       <div className="container hero-content">
         <div className="hero-profile reveal">
-          <img src="/kiran.jpg" alt="Pinisetty Hanumath Satya Kiran" />
+          <img src={profileImageUrl} alt="Pinisetty Hanumath Satya Kiran" />
         </div>
         <p className="hero-location reveal">{personalInfo.location}</p>
         <h1 className="reveal">{personalInfo.name}</h1>
@@ -57,7 +59,7 @@ export default function Hero() {
           <a className="btn btn-primary" href="#projects">
             View Projects
           </a>
-          <a className="btn btn-secondary" href="/kiran_Resume2026.pdf" download>
+          <a className="btn btn-secondary" href={resumeUrl} download>
             Download Resume
           </a>
           <a className="btn btn-ghost" href="#contact">
