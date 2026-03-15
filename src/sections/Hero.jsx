@@ -3,7 +3,7 @@ import { personalInfo, quickFacts } from '../data/portfolioData'
 
 export default function Hero() {
   const fullText = personalInfo.typingText
-  const resumeUrl = `${import.meta.env.BASE_URL}kiran_Resume2026.pdf`
+  const resumeUrl = `${import.meta.env.BASE_URL}kiran_Pinisetty_2026_.pdf`
   const profileImageUrl = `${import.meta.env.BASE_URL}kiran.jpg`
   const [typedText, setTypedText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
