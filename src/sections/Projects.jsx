@@ -35,6 +35,26 @@ export default function Projects() {
                       GitHub
                     </a>
                   ) : null}
+                  {project.publication ? (
+                    <a
+                      className="btn btn-secondary"
+                      href={project.publication}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Visit Paper
+                    </a>
+                  ) : null}
+                  {project.linkedin ? (
+                    <a
+                      className="btn btn-secondary"
+                      href={project.linkedin}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      LinkedIn
+                    </a>
+                  ) : null}
                   {project.live ? (
                     <a
                       className="btn btn-primary"

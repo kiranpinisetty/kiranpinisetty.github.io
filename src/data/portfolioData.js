@@ -15,7 +15,7 @@ export const quickFacts = [
 ]
 
 export const objective =
-  'Motivated Computer Science undergraduate seeking an entry-level Software Engineer role. Strong foundation in Java, JavaScript, web development (HTML, CSS), and problem-solving, with hands-on experience in building software applications, web interfaces, and AI projects.'
+  "Computer Science and Engineering graduate (2026) with hands-on experience building full-stack applications using ASP.NET Core, C#, React, and MySQL. Experienced in RESTful API design and frontend development through academic projects and active internships. Seeking an entry-level Software Engineer or .NET Developer role to contribute and grow within a product-driven team.";
 
 export const education = [
   {
@@ -40,71 +40,108 @@ export const education = [
 
 export const skills = [
   {
-    category: 'Programming',
+    category: "Programming",
     items: [
       {
-        name: 'C#',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
+        name: "C#",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
       },
       {
-        name: 'Java',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+        name: "Java",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
       {
-        name: 'JavaScript',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+        name: "JavaScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
     ],
   },
   {
-    category: 'Web',
+    category: "Frameworks",
     items: [
       {
-        name: 'HTML',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+        name: "ASP.NET Core",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
       },
       {
-        name: 'CSS',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+        name: "React",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
     ],
   },
   {
-    category: 'Database',
+    category: "Web",
     items: [
       {
-        name: 'MySQL',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+        name: "HTML",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
     ],
   },
   {
-    category: 'Tools',
+    category: "Database",
     items: [
       {
-        name: 'GitHub',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
-      },
-      {
-        name: 'Wireshark',
-        icon: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg',
-      },
-      {
-        name: 'VS Code',
-        icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+        name: "MySQL",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       },
     ],
   },
   {
-    category: 'Core Concepts',
+    category: "Tools",
     items: [
       {
-        name: 'OOP',
+        name: "Git",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+      {
+        name: "GitHub",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      },
+      {
+        name: "Postman",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+      },
+      {
+        name: "VS Code",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+      },
+      {
+        name: "Swagger",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg",
+      },
+      {
+        name: "Wireshark",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg",
+      },
+    ],
+  },
+  {
+  category: 'Core Concepts',
+    items: [
+      {
+        name: 'REST API Design',
         icon: 'https://img.icons8.com/fluency/96/source-code.png',
       },
       {
-        name: 'Data Structures',
+        name: 'OOP',
         icon: 'https://img.icons8.com/fluency/96/data-configuration.png',
+      },
+      {
+        name: 'Data Structures',
+        icon: 'https://img.icons8.com/fluency/96/tree-structure.png',
+      },
+      {
+        name: 'MVC Architecture',
+        icon: 'https://img.icons8.com/fluency/96/layers.png',
+      },
+      {
+        name: 'Dependency Injection',
+        icon: 'https://img.icons8.com/fluency/96/settings.png',
       },
       {
         name: 'Operating Systems',
@@ -112,96 +149,93 @@ export const skills = [
       },
     ],
   },
-]
+];
 
 export const experiences = [
   {
-    role: 'Software Intern',
-    duration: 'Dec 2025 - Present',
-    company: 'Svestran IT Solutions, Vijayawada',
+    role: "Software Intern (.NET & Frontend)",
+    duration: "Dec 2025 – Present",
+    company: "Svestran IT Solutions, Vijayawada",
     points: [
-      'Working on SvesFit, a gym management software project.',
-      'Contributing to frontend development for user-facing modules.',
-      'Building responsive UI components for different screen sizes.',
-      'Supporting testing and debugging workflows.',
-      'Collaborating with team members on implementation tasks.',
+      "Developed and enhanced frontend UI components for SvesFit, a gym management platform, as part of a 6–8 member development team.",
+      "Integrated OTP-based authentication flow on the backend, contributing to secure user verification.",
+      "Collaborated in redesigning the company landing page, improving visual structure and responsive layout.",
+      "Tested and validated REST API functionality using Postman, supporting QA and feature delivery cycles.",
     ],
   },
   {
-    role: 'Summer Intern - Artificial Intelligence',
-    duration: 'May 2025 - July 2025',
-    company: 'Amiers Society, Vijayawada',
+    role: "Summer Intern – Artificial Intelligence",
+    duration: "May 2025 – Jul 2025",
+    company: "Amiers Society, Vijayawada",
     points: [
-      'Built chatbot models using Hugging Face frameworks.',
-      'Implemented object detection experiments using YOLO + OpenCV.',
-      'Explored practical AI tools and real-world workflows.',
+      "Built and fine-tuned NLP chatbot models using Hugging Face Transformers for conversational query handling.",
+      "Developed a real-time object detection system using YOLOv5 and OpenCV for live video stream analysis.",
+      "Gained hands-on exposure to AI workflows including text generation and image classification pipelines.",
     ],
   },
   {
-    role: 'Summer Intern - Cybersecurity',
-    duration: 'May 2024 - July 2024',
-    company: 'Amiers Society, Vijayawada',
+    role: "Summer Intern – Cybersecurity",
+    duration: "May 2024 – Jul 2024",
+    company: "Amiers Society, Vijayawada",
     points: [
-      'Performed web application testing tasks.',
-      'Solved real-world programming and security-oriented challenges.',
+      "Performed web application security testing and hands-on network traffic analysis using Wireshark.",
+      "Gained practical understanding of common web vulnerabilities and secure application practices.",
     ],
   },
-]
-
-export const projects = [
-  {
-    title: 'Text-To-SQL Query Execution System',
-    tech: 'ASP.NET Backend, React Frontend, MySQL Database',
-    status: 'In Progress',
-    image:
-      'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1200&q=80',
-    points: [
-      'Built a full-stack Natural Language to SQL system that converts plain English queries into secure, executable database queries.',
-      'Developed an AI-assisted web application that transforms natural language prompts into accurate SQL statements.',
-      'Implemented secure query validation and controlled database execution for safe and reliable data retrieval.',
-      'Integrated real-time database schema awareness for intelligent query generation.',
-      'Designed backend architecture for schema mapping, query processing, and result delivery.',
-      'Structured the platform using a scalable three-tier architecture to support advanced queries and future database management features.',
-    ],
-  },
-  {
-    title: 'Telegram Chatbot Demo',
-    tech: 'Java, Telegram Bot API',
-    github: 'https://github.com/kiranpinisetty/telegram-bot.git',
-    image:
-      'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80',
-    points: [
-      'Implemented menu-driven commands for user interactions.',
-      'Integrated AI services including OpenAI, Gemini, and Hugging Face.',
-      'Designed for fault tolerance and reliable handling of failures.',
-      'Built without database dependency for lightweight deployment.',
-    ],
-  },
-  {
-    title: 'Rock-Paper-Scissors Game',
-    tech: 'HTML, CSS, JavaScript',
-    live: 'https://kiranpinisetty.github.io/rock-paper-scissors/',
-    image:
-      'https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&w=1200&q=80',
-    points: [
-      'Developed a browser-based Rock-Paper-Scissors game interface.',
-      'Implemented game logic to evaluate user and system moves.',
-      'Added reset functionality for repeat play sessions.',
-    ],
-  },
-  {
-    title: 'Umpire Gesture Detection System',
-    tech: 'Python, YOLOv5, PyTorch, NumPy',
-    image:
-      'https://images.unsplash.com/photo-1471295253337-3ceaaedca402?auto=format&fit=crop&w=1200&q=80',
-    points: [
-      'Built real-time umpire gesture detection workflows.',
-      'Used deep learning model pipelines for recognition accuracy.',
-      'Processed live video streams for prediction output.',
-    ],
-  },
-]
-
+];
+ export const projects = [
+   {
+     title: "Text-to-SQL Query Execution System",
+     tech: "ASP.NET Core · React · MySQL · Groq AI · NLP",
+     //status: "Published",
+     github: "https://github.com/kiranpinisetty",
+     publication: "https://zenodo.org/records/19613206",
+     image:
+       `${import.meta.env.BASE_URL}textSQL.png`,
+     points: [
+       "Built a full-stack AI-integrated web application that converts plain English queries into secure, executable SQL statements using LLM-based natural language processing.",
+       "Designed a three-tier RESTful ASP.NET Core backend handling schema mapping, query processing, and result delivery with support for multiple live database connections.",
+       "Implemented schema-aware prompting, read-only query validation, and SQL trace transparency to ensure secure and reliable data retrieval.",
+       "Developed an interactive React frontend with session-based query history, schema explorer, and CSV export functionality.",
+       "Research paper published and submitted to the Journal of Computer and Electrical Sciences (JCES).",
+     ],
+   },
+   {
+     title: "Telegram Chatbot with Multi-AI Engine",
+     tech: "Java · Telegram Bot API · OpenAI API · Gemini API · Hugging Face",
+     github: "https://github.com/kiranpinisetty/telegram-bot.git",
+     image:
+       `${import.meta.env.BASE_URL}Chatbot.png`,
+     points: [
+       "Developed a Java-based Telegram bot supporting menu-driven commands and natural language query handling across multiple AI engines.",
+       "Integrated OpenAI, Gemini, and Hugging Face APIs with automatic engine fallback logic to ensure high availability.",
+       "Implemented per-user AI engine selection and conversation reset with no database dependency, keeping the system lightweight and stateless.",
+     ],
+   },
+   {
+     title: "Umpire Gesture Detection System",
+     tech: "Python · YOLOv5 · PyTorch · OpenCV · NumPy",
+     linkedin: "https://www.linkedin.com/posts/kiranpinisetty_ai-machinelearning-deeplearning-ugcPost-7341340282707202049-Mf7P",
+     image:
+       `${import.meta.env.BASE_URL}umpire.png`,
+     points: [
+       "Developed a real-time computer vision system to detect and classify cricket umpire gestures from live video streams.",
+       "Trained a deep learning pipeline using YOLOv5, achieving accurate multi-class gesture recognition with high precision.",
+     ],
+   },
+   {
+     title: "Rock-Paper-Scissors Game",
+     tech: "HTML · CSS · JavaScript",
+     live: "https://kiranpinisetty.github.io/rock-paper-scissors/",
+     image:
+       `${import.meta.env.BASE_URL}RockPaper.png`,
+     points: [
+       "Developed a browser-based Rock-Paper-Scissors game with clean UI and responsive design.",
+       "Implemented game logic to evaluate user and system moves with score tracking.",
+       "Added reset functionality for repeat play sessions.",
+     ],
+   },
+ ];
 export const achievements = [
   'Best Student - Cybersecurity Level 1 Hackathon (Supraja Technologies)',
 ]

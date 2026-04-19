@@ -13,16 +13,25 @@ import Skills from './sections/Skills'
 export default function App() {
   useEffect(() => {
     const revealElements = document.querySelectorAll('.reveal')
+    const prefersReducedMotion = window.matchMedia(
+      '(prefers-reduced-motion: reduce)',
+    ).matches
+
+    if (prefersReducedMotion) {
+      revealElements.forEach((element) => element.classList.add('revealed'))
+      return
+    }
 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add('revealed')
+            observer.unobserve(entry.target)
           }
         })
       },
-      { threshold: 0.15 },
+      { threshold: 0.1, rootMargin: '0px 0px -8% 0px' },
     )
 
     revealElements.forEach((element) => observer.observe(element))

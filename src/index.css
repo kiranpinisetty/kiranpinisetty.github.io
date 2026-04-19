@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 88px;
 }
 
 body {
@@ -544,8 +545,8 @@ textarea:focus-visible {
 
 .reveal {
   opacity: 0;
-  transform: translateY(14px);
-  transition: opacity 0.45s ease, transform 0.45s ease;
+  transform: translateY(8px);
+  transition: opacity 0.28s ease-out, transform 0.28s ease-out;
 }
 
 .reveal.revealed {
