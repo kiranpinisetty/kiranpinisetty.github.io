@@ -23,7 +23,7 @@ export const education = [
     year: "2022 - 2026",
     institution:
       "Andhra Loyola Institute of Engineering and Technology, Vijayawada",
-    score: "CGPA: 7.33",
+    score: "CGPA: 7.46",
   },
   {
     title: "Intermediate (State Board)",
@@ -191,6 +191,7 @@ export const projects = [
     //status: "Published",
     github: "https://github.com/kiranpinisetty",
     publication: "https://zenodo.org/records/19613206",
+    live: "https://dataextractor.kiranpinisetty.dev/login",
     image: `${import.meta.env.BASE_URL}textSQL.png`,
     points: [
       "Built a full-stack AI-integrated web application that converts plain English queries into secure, executable SQL statements using LLM-based natural language processing.",

@@ -21,7 +21,7 @@ export default function Contact() {
             </li>
             <li>
               <span>Phone</span>
-              <p className="contact-empty">-</p>
+              <a href="tel:+919989455477" className="contact-empty">+91 9989455477</a>
             </li>
             <li>
               <span>LinkedIn</span>
