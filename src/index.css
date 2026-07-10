@@ -319,6 +319,25 @@ img {
   margin-bottom: 18px;
 }
 
+.experience-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.experience-meta {
+  flex: 0 0 220px;
+}
+
+.experience-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-company-mobile {
+  display: none;
+}
+
 .timeline-dot {
   position: absolute;
   left: 2px;
@@ -589,6 +608,23 @@ textarea:focus-visible {
   .project-card,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .experience-meta {
+    flex-basis: auto;
+  }
+
+  .experience-company-mobile {
+    display: block;
+  }
+
+  .experience-meta .card-subtitle {
+    display: none;
   }
 
   .project-media img {

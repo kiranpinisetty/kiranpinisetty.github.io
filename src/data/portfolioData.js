@@ -1,17 +1,17 @@
 export const personalInfo = {
   name: "Pinisetty Hanumath Satya Kiran",
-  location: "Vijayawada, India",
+  location: "Hyderabad, India",
   phone: "9989455477",
   email: "kiranpinisetty@gmail.com",
   linkedin: "https://linkedin.com/in/kiranpinisetty",
   github: "https://github.com/kiranpinisetty",
-  typingText: "Fresher Seeking Opportunities in IT Domain",
+  typingText: "Fresher Seeking Opportunities in Software Development | .NET Developer ",
 };
 
 export const quickFacts = [
   "Open to Work",
   "2026 Graduate",
-  "Entry-Level IT Roles",
+  "Entry-Level Software Developer Roles",
 ];
 
 export const objective =
@@ -90,6 +90,10 @@ export const skills = [
         name: "MySQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       },
+      {
+        name: "SQL Server",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+      },
     ],
   },
   {
@@ -110,14 +114,6 @@ export const skills = [
       {
         name: "VS Code",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-      },
-      {
-        name: "Swagger",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg",
-      },
-      {
-        name: "Wireshark",
-        icon: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg",
       },
     ],
   },
@@ -140,14 +136,6 @@ export const skills = [
         name: "MVC Architecture",
         icon: "https://img.icons8.com/fluency/96/layers.png",
       },
-      {
-        name: "Dependency Injection",
-        icon: "https://img.icons8.com/fluency/96/settings.png",
-      },
-      {
-        name: "Operating Systems",
-        icon: "https://img.icons8.com/fluency/96/monitor.png",
-      },
     ],
   },
 ];
@@ -155,7 +143,7 @@ export const skills = [
 export const experiences = [
   {
     role: "Software Intern (.NET & Frontend)",
-    duration: "Dec 2025 – Present",
+    duration: "Dec 2025 – Jun 2026",
     company: "Svestran IT Solutions, Vijayawada",
     points: [
       "Developed and enhanced frontend UI components for SvesFit, a gym management platform, as part of a 6–8 member development team.",
