@@ -5,7 +5,8 @@ export const personalInfo = {
   email: "kiranpinisetty@gmail.com",
   linkedin: "https://linkedin.com/in/kiranpinisetty",
   github: "https://github.com/kiranpinisetty",
-  typingText: "Fresher Seeking Opportunities in Software Development | .NET Developer ",
+  typingText:
+    "Fresher Seeking Opportunities in Software Development | .NET Developer ",
 };
 
 export const quickFacts = [
