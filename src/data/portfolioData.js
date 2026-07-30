@@ -191,6 +191,18 @@ export const projects = [
     ],
   },
   {
+    title: "Smart Cosmetics Store Management System",
+    tech: "ASP.NET Core · React · PostgreSQL · Entity Framework Core · JWT",
+    github: "https://github.com/kiranpinisetty/inventory-management-system",
+    image: `${import.meta.env.BASE_URL}cosmetics_billing.jpg`,
+    points: [
+      "Built a full-stack retail management web application with a RESTful ASP.NET Core 9 Web API backend, React 19 frontend, and PostgreSQL database using Entity Framework Core code-first migrations for automated schema management.",
+      "Implemented end-to-end billing workflow with camera-based barcode scanning, dual pricing support (General/Parlour), real-time cart management, and client-side PDF invoice generation using jsPDF.",
+      "Developed inventory management with expiry date tracking, low stock threshold alerts, dead stock detection, and product search and filtering by brand and category.",
+      "Designed an analytics dashboard with 30-day revenue and profit trend charts (Recharts), best-seller and slow-seller reports, and a sales log with date range filtering and transaction history.",
+    ],
+  },
+  {
     title: "Telegram Chatbot with Multi-AI Engine",
     tech: "Java · Telegram Bot API · OpenAI API · Gemini API · Hugging Face",
     github: "https://github.com/kiranpinisetty/telegram-bot.git",
