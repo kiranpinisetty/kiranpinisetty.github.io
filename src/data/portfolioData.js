@@ -24,7 +24,7 @@ export const education = [
     year: "2022 - 2026",
     institution:
       "Andhra Loyola Institute of Engineering and Technology, Vijayawada",
-    score: "CGPA: 7.46",
+    score: "CGPA: 7.48",
   },
   {
     title: "Intermediate (State Board)",
